@@ -1,0 +1,11 @@
+  # Python cache
+  __pycache__/
+  *.pyc
+
+  # Downloaded data (recreate with: python src/data_loader.py)
+  data/
+
+  # Editor and system files
+  .vscode/
+  .DS_Store
+  Thumbs.db
