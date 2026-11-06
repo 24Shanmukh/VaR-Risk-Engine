@@ -1,0 +1,5 @@
+Confidence,Days,Historical VaR %,Historical VaR Rs,Parametric VaR %,Parametric VaR Rs
+95%,1,1.1,110427,1.25,125382
+95%,10,3.49,349202,3.96,396491
+99%,1,1.9,190491,1.79,179091
+99%,10,6.02,602385,5.66,566334

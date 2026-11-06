@@ -1,0 +1,4 @@
+Model,Days tested,Exceptions,Expected,Exception rate %,Kupiec p-value,Kupiec result,Last 250 days,Basel zone
+Historical,2840,44,28,1.55,0.006,Fail,7,Yellow
+Parametric,2840,50,28,1.76,0.0,Fail,9,Yellow
+EWMA,3089,59,31,1.91,0.0,Fail,5,Yellow

@@ -1,0 +1,5 @@
+Method,VaR 95% (%),VaR 99% (%),ES 97.5% (%),VaR 99% (Rs),ES 97.5% (Rs)
+Historical,1.1,1.9,2.3,190491,229769
+Parametric (Normal),1.25,1.79,1.8,179091,179993
+Monte Carlo (Normal),1.29,1.81,1.84,181371,183677
+Monte Carlo (Student-t),1.14,2.03,2.14,202609,213602
