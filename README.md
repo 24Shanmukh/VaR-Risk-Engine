@@ -71,18 +71,18 @@ crises and wraps everything in an interactive Streamlit dashboard.
 ## Project structure
 
 ```
-VaR/
-├── src/
-│   ├── config.py               portfolio, weights and risk settings
-│   ├── data_loader.py          Step 1: download prices, clean data, calculate returns
-│   ├── var_basic.py            Step 2: historical and parametric VaR
-│   ├── var_advanced.py         Step 3: Expected Shortfall and Monte Carlo VaR
-│   ├── backtest.py             Step 4: backtesting and EWMA VaR
-│   ├── risk_decomposition.py   Step 5: risk contribution by asset
-│   ├── stress_test.py          Step 6: historical and hypothetical stress tests
-│   └── app.py                  Step 7: Streamlit dashboard
-├── outputs/                    result tables (.csv) and charts (.png)
+VaR-Risk-Engine/
+├── config.py               portfolio, weights and risk settings
+├── data_loader.py          Step 1: download prices, clean data, calculate returns
+├── var_basic.py            Step 2: historical and parametric VaR
+├── var_advanced.py         Step 3: Expected Shortfall and Monte Carlo VaR
+├── backtest.py             Step 4: backtesting and EWMA VaR
+├── risk_decomposition.py   Step 5: risk contribution by asset
+├── stress_test.py          Step 6: historical and hypothetical stress tests
+├── app.py                  Step 7: Streamlit dashboard
+├── outputs/                result tables (.csv) and charts (.png)
 ├── requirements.txt
+└── README.md
 └── README.md
 ```
 
@@ -91,14 +91,14 @@ VaR/
 ```bash
 pip install -r requirements.txt
 
-python src/data_loader.py          # downloads data into data/
-python src/var_basic.py
-python src/var_advanced.py
-python src/backtest.py
-python src/risk_decomposition.py
-python src/stress_test.py
+python data_loader.py          # downloads data into data/
+python var_basic.py
+python var_advanced.py
+python backtest.py
+python risk_decomposition.py
+python stress_test.py
 
-python -m streamlit run src/app.py # interactive dashboard at http://localhost:8501
+python -m streamlit run app.py # interactive dashboard at http://localhost:8501
 ```
 
 Run every command from the project folder. Each chart opens in a window; close it to continue.
